@@ -1,0 +1,36 @@
+inicio
+	var numeros[15]
+	var cero;
+	var par;
+	var impar;
+
+
+	var i = 0; i < 15; i ++ ;{
+	  random(0,36)
+	  leer numeros[n]
+	  n++;
+	}
+	
+	var cantidadcero;
+	var cantidadpar;
+	var cantidadimpar;
+
+	var i = 0; i < 15; i ++ ;{
+	  si numeros[n] = 0
+	    cantidadcero++
+	  si contrario numeros[n] %2 = 0
+	    contadrorpar++
+	  contario
+	    contador impar++
+	  fin si
+	  
+	}
+	cero = cantidadcero/15
+	par = cantidadpar/15
+	impar = cantidadimpar/15
+
+	mostara "promedio par "+par
+	mostara "promedio cero "+cero
+	mostara "promedio impar "+impar	
+fin
+	
